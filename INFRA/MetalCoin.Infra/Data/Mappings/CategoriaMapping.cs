@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace MetalCoin.Infra.Data.Mappings
 {
-    internal class CategoriaMapping : IEntityTypeConfiguration<Categoria>
+    internal class CategoriaMapping : IEntityTypeConfiguration<Cupon>
     {
-        public void Configure(EntityTypeBuilder<Categoria> builder)
+        public void Configure(EntityTypeBuilder<Cupon> builder)
         {
             builder.ToTable("Categorias");
 

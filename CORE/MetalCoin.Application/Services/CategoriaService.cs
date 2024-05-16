@@ -44,7 +44,7 @@ namespace MetalCoin.Application.Services
             
             if (categoriaExistente != null) return null;
 
-            var categoriaEntidade = new Categoria 
+            var categoriaEntidade = new Cupon 
             {
                 Nome = categoria.Nome.ToUpper(),
                 Status = categoria.Status,

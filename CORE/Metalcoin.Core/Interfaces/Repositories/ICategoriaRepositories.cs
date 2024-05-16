@@ -2,8 +2,8 @@
 
 namespace Metalcoin.Core.Interfaces.Repositories
 {
-    public interface ICategoriaRepository : IRepository<Categoria>
+    public interface ICategoriaRepository : IRepository<Cupon>
     {
-        Task<Categoria>BuscarPorNome(string nome);
+        Task<Cupon>BuscarPorNome(string nome);
     }
 }
