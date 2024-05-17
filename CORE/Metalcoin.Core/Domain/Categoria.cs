@@ -2,7 +2,7 @@
 
 namespace Metalcoin.Core.Domain
 {
-    public class Cupon : Entidade
+    public class Categoria : Entidade
     {
         public string Nome { get; set; }
         public bool Status { get; set; }

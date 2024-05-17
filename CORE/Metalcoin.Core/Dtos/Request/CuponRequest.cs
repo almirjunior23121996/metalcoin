@@ -1,25 +1,20 @@
-﻿using Metalcoin.Core.Abstracts;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//aqui estabeleço todas as propriedades que o cupom vai ter
-namespace Metalcoin.Core.Domain
+
+namespace Metalcoin.Core.Dtos.Request
 {
-    
-    public class Cupon : Entidade
+    public class CuponRequest
     {
         public string Code { get; set; }
         public string Descricao { get; set; }
         public double ValorDesconto { get; set; }
-        public string Desconto { get; set; } 
+        public string Desconto { get; set; }
         public DateTime Validade { get; set; }
         public int TotalQuantia { get; set; }
         public int QuantiaUsada { get; set; }
         public string Status { get; set; }
-        public DateTime DataCadastro { get; set; }
-        public DateTime DataAlteracao { get; set; }
-        public string Nome { get; set; }
     }
 }

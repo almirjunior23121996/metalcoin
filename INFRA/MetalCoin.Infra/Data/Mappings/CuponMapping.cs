@@ -26,7 +26,7 @@ namespace MetalCoin.Infra.Data.Mappings
                 .IsRequired();
 
             builder.Property(p => p.ValorDesconto)
-               
+
                .IsRequired();
 
 
@@ -38,11 +38,11 @@ namespace MetalCoin.Infra.Data.Mappings
                 .HasColumnType("datetime")
                 .IsRequired();
 
-           
+
 
             builder.Property(p => p.Status)
                 .HasColumnType("bit")
                 .IsRequired();
-            {
+        }   
     }
 }
