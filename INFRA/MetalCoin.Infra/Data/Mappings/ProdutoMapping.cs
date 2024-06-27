@@ -20,14 +20,9 @@ namespace MetalCoin.Infra.Data.Mappings
                 .HasColumnType("varchar(1000)")
                 .IsRequired();
 
-            builder.Property(p => p.Valor)
-                .HasColumnType("decimal(18,2)")
+            builder.Property(p => p.Categoria)
+                .HasColumnType("varchar(100)")
                 .IsRequired();
-
-            builder.Property(p => p.Ativo)
-                .HasColumnType("bit")
-                .IsRequired();
-
         }
     }
 }

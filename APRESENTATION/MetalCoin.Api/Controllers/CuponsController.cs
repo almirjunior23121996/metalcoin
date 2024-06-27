@@ -74,9 +74,9 @@ namespace MetalCoin.Api.Controllers
 
             if (!resultado) return BadRequest("");
 
-            return Ok("cupon deletada com sucesso");
+            return Ok("Produto deletada com sucesso");
 
-            
+
 
         }
     }

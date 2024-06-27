@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Metalcoin.Core.Dtos.Request
 {
-    public record CuponCadastrarRequest
+    public record ProdutoAtualizarRequest
     {
-        public string Descrticao { get; set; }
-        public bool Status { get; set; }
+        public Guid Id { get; set; }
+        public string Descricao { get; set; }
     }
-}
+  }
