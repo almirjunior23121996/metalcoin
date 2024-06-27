@@ -22,11 +22,11 @@ namespace MetalCoin.Api.Controllers
         [Route("todosProdutos")]
         public async Task<ActionResult> ObterTodosProdutos()
         {
-            var listacupons = await _ProdutoRepository.ObterTodos();
+            var listaProdutos = await _ProdutoRepository.ObterTodos();
 
-            if (listacupons.Count == 0) return NoContent();
+            if (listaProdutos.Count == 0) return NoContent();
 
-            return Ok(listacupons);
+            return Ok(listaProdutos);
         }
         [HttpGet]
         [Route("p/{id:guid}")]

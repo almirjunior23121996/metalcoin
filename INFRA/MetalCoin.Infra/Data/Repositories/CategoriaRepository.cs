@@ -15,9 +15,5 @@ namespace MetalCoin.Infra.Data.Repositories
             return resultado;                
         }
 
-        Task<Cupon> ICategoriaRepository.BuscarPorNome(string nome)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
