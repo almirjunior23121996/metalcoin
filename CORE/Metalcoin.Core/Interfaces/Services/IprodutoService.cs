@@ -14,7 +14,7 @@ namespace Metalcoin.Core.Interfaces.Services
     {
         Task<ProdutoResponse> CadastrarProduto(ProdutoCadastrarRequest Produto);
         Task<ProdutoResponse> AtualizarProduto(ProdutoAtualizarRequest Produto);
-        Task<bool> DeletarCupon(Guid id);
+        Task<bool> DeletarProduto(Guid id);
 
     }
 }

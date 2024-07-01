@@ -32,9 +32,9 @@ namespace MetalCoin.Api.Controllers
         [Route("p/{id:guid}")]
         public async Task<ActionResult> ObterUmaCupon(Guid id)
         {
-            var cupon = await _ProdutoRepository.ObterPorId(id);
-            if (cupon == null) return BadRequest("Produto não encontrado");
-            return Ok(cupon);
+            var produto = await _ProdutoRepository.ObterPorId(id);
+            if (produto == null) return BadRequest("Produto não encontrado");
+            return Ok(produto);
         }
 
 
@@ -69,7 +69,7 @@ namespace MetalCoin.Api.Controllers
         {
             if (id == Guid.Empty) return BadRequest("Id não informado");
 
-            var resultado = await _ProdutoService.DeletarCupon(id);
+            var resultado = await _ProdutoService.DeletarProduto(id);
 
             if (!resultado) return BadRequest("");
 

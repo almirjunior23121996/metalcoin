@@ -9,6 +9,6 @@ namespace Metalcoin.Core.Interfaces.Repositories
 {
     public interface IProdutoRepository : IRepository<Produto>
     {
-        Task<Produto> BuscarPorNome(string nome);
+        Task<Produto> BuscarPornome(string nome);
     }
 }

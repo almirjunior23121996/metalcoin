@@ -10,6 +10,7 @@ namespace Metalcoin.Core.Dtos.Request
     {
         public string Nome { get; set; }
         public string Descrticao { get; set; }
-    
+        public string preco { get; set; }
+
     }
 }

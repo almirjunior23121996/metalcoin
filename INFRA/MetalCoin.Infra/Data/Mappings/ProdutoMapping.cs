@@ -20,7 +20,9 @@ namespace MetalCoin.Infra.Data.Mappings
                 .HasColumnType("varchar(1000)")
                 .IsRequired();
 
-           
+            builder.Property(p => p.preco)
+              .HasColumnType("varchar(1000)")
+              .IsRequired();
         }
     }
 }
