@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APRESENTACAO", "APRESENTACAO", "{71610D01-0A13-47FC-BFD9-B9F61FCA8470}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetalCoin.Api", "APRESENTATION\MetalCoin.Api\MetalCoin.Api.csproj", "{4D7E17E3-B30D-4998-9121-2232C8BD4E32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D7E17E3-B30D-4998-9121-2232C8BD4E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7E17E3-B30D-4998-9121-2232C8BD4E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7E17E3-B30D-4998-9121-2232C8BD4E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7E17E3-B30D-4998-9121-2232C8BD4E32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D7E17E3-B30D-4998-9121-2232C8BD4E32} = {71610D01-0A13-47FC-BFD9-B9F61FCA8470}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95F4423D-9EF4-458A-9853-DF755167E889}
+	EndGlobalSection
+EndGlobal
